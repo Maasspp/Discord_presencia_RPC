@@ -1,9 +1,8 @@
-// Este código pertenecía a otro usuario, solamente lo hice funcionar y minimalice el código para una mejor función,
-// pronto lanzaré mi propia versión premium.
+// Este código es "público" y bastante conocido, esto es simplemente una adaptación hecha a mi estilo :)
 
 const ID = 'ID_DE_LA_APLICACIÓN';
 
-// COLOCA 'NPM INSTALL DISCORD-RPC' EN LA TERMINAL
+// Pon en la terminal: "npm install discord-rpc" 
 const DiscordRPC = require('discord-rpc');
 const RPC = new DiscordRPC.Client({ transporte: 'ipc' });
 
